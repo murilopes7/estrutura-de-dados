@@ -1,0 +1,36 @@
+# ---------------------------------
+# Arquivos de compilação C/C++
+# ---------------------------------
+
+# Arquivos objeto (gerados antes do executável)
+*.o
+*.obj
+
+# Executáveis (Linux/Mac e Windows)
+*.out
+*.exe
+*.app
+
+# Se você usar o nome "executavel" no seu comando g++ -o executavel
+executavel
+
+# Bibliotecas dinâmicas e estáticas
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# ---------------------------------
+# Arquivos de IDEs e Editores
+# ---------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------------------------
+# Arquivos do Sistema Operacional
+# ---------------------------------
+.DS_Store
+Thumbs.db
