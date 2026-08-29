@@ -14,6 +14,11 @@
 # Ignora qualquer executável que comece com 'exercicio-'
 exercicio-*
 
+# MAS protege (não ignora) os arquivos de código-fonte e cabeçalhos!
+!*.cpp
+!*.hpp
+!*.h
+
 # Bibliotecas dinâmicas e estáticas
 *.dll
 *.so
