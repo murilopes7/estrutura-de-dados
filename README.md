@@ -50,16 +50,16 @@ Certifique-se de ter o compilador g++ instalado no seu sistema.
 
 1. Clone o repositório:
 
-   ```bash
-   git clone [https://github.com/murilopes7/estrutura-de-dados.git)](https://github.com/murilopes7/estrutura-de-dados.git)
+   ```powershell
+   git clone [https://github.com/murilopes7/estrutura-de-dados.git](https://github.com/murilopes7/estrutura-de-dados.git)
    cd estrutura-de-dados
 
 2. Navegue até a pasta da estrutura desejada e compile o arquivo .cpp:
-  ```bash
+  ```powershell
     g++ -Wall -std=c++17 02-pilhas-filas/fila.cpp -o executavel
   ```
 
 3. Execute a aplicação:
-```bash
+```powershell
   ./executavel
  
