@@ -11,8 +11,8 @@
 *.exe
 *.app
 
-# Se você usar o nome "executavel" no seu comando g++ -o executavel
-executavel
+# Ignora qualquer executável que comece com 'exercicio-'
+exercicio-*
 
 # Bibliotecas dinâmicas e estáticas
 *.dll
